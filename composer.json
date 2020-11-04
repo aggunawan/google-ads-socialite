@@ -1,0 +1,27 @@
+{
+    "name": "aggunawan/google-ads-socialite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agung Gunawan",
+            "email": "agunggunawan.github@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/socialite": "^5.0",
+        "socialiteproviders/manager": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aggunawan\\GoogleAdsSocialite\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
